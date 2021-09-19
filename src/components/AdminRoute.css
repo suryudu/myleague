@@ -1,0 +1,51 @@
+.adminbutton button{
+    width: 150px;
+    padding:10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    color:white;
+    border: none;
+    margin-top: 10px;
+    background-image: linear-gradient(to left,#0652DD,#D980FA);
+}
+.adminbutton button:hover{
+    background-image: linear-gradient(to left,#D980FA,#0652DD);
+}
+
+.adminbutton {
+    text-align: center;
+}
+.updatepoints {
+    margin-bottom:30px ;
+    font-size: 20px;
+}
+.updatepoints .grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    padding: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom:30px ;
+    
+}
+.updatepoints .grid-item{
+    text-align: center;
+    margin-left: 12px;
+    padding:8px;
+    display: flex;
+    border: 1px solid red;
+    margin-top: 10px;
+    width:250px;
+}
+.updatepoints .team{
+    margin-left: auto;
+    order: 2;
+}
+.updatepoints .grid-item input{
+    margin-left: auto;
+    order:3;
+    outline: none;
+    border: none;
+} 

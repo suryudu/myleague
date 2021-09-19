@@ -10,10 +10,13 @@ export default function MatchCard(props) {
     const match=props.match;
     const history=useHistory();
     const id=match._id;
+    const team1=match.team1;
+    const team2=match.team2;
    
 
     const handleClick=()=>{
-        history.push({pathname:`/players/${match.team1}/${match.team2}`,query:{id}});
+        // history.push({pathname:`/players/${match.team1}/${match.team2}`,query:{id}});
+        history.push(`/adminroute/${id}/${team1}/${team2}`);
     }
    
 
