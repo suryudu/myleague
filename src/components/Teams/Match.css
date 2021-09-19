@@ -1,0 +1,59 @@
+.teams{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+.teams .team-name{
+    margin-left: 20px;
+}
+
+.team2{
+    margin-left: 35%;
+}
+.team1{
+    margin-left: 10%;
+}
+.teams h1{
+    border: 3px solid blue;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.player{
+    display: flex;
+    border: 1px solid red;
+    box-shadow:0px 10px 20px 5px rgba(51, 73, 146, 0.2);
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.player:hover{
+    box-shadow:10px 20px 20px 5px rgba(35, 133, 26, 0.2);
+}
+.player .role{
+        margin-left: auto;
+        order: 2;
+        color: blue;
+}
+.button{
+    text-align: center;
+    padding: 30px;
+}
+.button button {
+    width: 150px;
+    padding:10px 20px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    outline: none;
+}
+.button button:hover{
+    background-color: blue;
+    color: white;
+}

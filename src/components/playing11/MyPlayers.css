@@ -1,0 +1,57 @@
+.myplayers .match{
+    text-align: center;
+}
+
+.myplayers .players{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+}
+
+.myplayers h3{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid red;
+    width: fit-content;
+}
+.myplayers .squad{
+    padding: 40px;
+}
+.section{
+    margin-top: 70px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 10px 2px 10px;
+    margin-left: 10%;
+    
+}
+.grid-item{
+    text-align: left;
+  
+}
+.rankingbutton{
+    text-align: center;
+    padding: 30px;
+}
+.rankingbutton button{
+    width: 150px;
+    padding:10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    color:white;
+    border: none;
+    background-image: linear-gradient(to left,#0652DD,#D980FA);
+}
+.rankingbutton button:hover{
+    background-image: linear-gradient(to left,#D980FA,#0652DD);
+}
+.checkboxgroup .checkinput .checkboxes{
+    cursor: pointer;
+}
+.checkboxgroup .checkinput{
+    padding-left: 3px;
+}
