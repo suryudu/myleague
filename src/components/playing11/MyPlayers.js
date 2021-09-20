@@ -92,7 +92,7 @@ export default function MyPlayers(props) {
                 // bowlers,
                 // sequences,
                 players:playing11,
-                sequences,
+                structures:sequences,
                 matchId:id
             }
             // console.log(data);
